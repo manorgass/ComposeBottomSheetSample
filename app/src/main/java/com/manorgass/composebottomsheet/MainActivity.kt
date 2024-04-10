@@ -13,7 +13,7 @@ import com.manorgass.composebottomsheet.ui.theme.ComposeBottomSheetTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        WindowCompat.setDecorFitsSystemWindows(window, false)
+        //WindowCompat.setDecorFitsSystemWindows(window, false)
 
         setContent {
             ComposeBottomSheetTheme {
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ModalBottomSheetScreen()
+                    ModalBottomSheetLayoutScreen()
                 }
             }
         }
