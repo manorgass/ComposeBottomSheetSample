@@ -16,12 +16,12 @@ fun BottomSheetContent() {
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(20.dp)
+            .padding(bottom = 16.dp, start = 16.dp, end = 16.dp)
     ) {
         Text(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 16.dp),
+                .padding(bottom = 16.dp),
             text = "Welcome to the bottom sheet!",
             textAlign = TextAlign.Center,
             fontSize = 26.sp
